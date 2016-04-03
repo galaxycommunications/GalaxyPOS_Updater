@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #    floreantpos_updater.sh - keeps your floreant_pos fresh
-#    Copyright (C) 2015 fattire <f4ttire@gmail.com>
+#    Copyright (C) 2015 GalaxyComm <galaxycommunications.gc@gmail.com>
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -19,11 +19,11 @@
 
 NEEDED_PACKAGES=("git" "git-svn" "maven2" "openjdk-7-jdk" "openjdk-7-doc" "openjdk-7-jre-lib")
 # source goes here
-SOURCE_DIR=$HOME/floreantpos_source
+SOURCE_DIR=$HOME/galaxypos_source
 # the built zips will go here
-TARGET_DIR=$HOME/Desktop/floreantpos_builds
+TARGET_DIR=$HOME/Desktop/galaxypos_builds
 # a "live" version, suitable for running, goes here
-ACTIVE_DIR=$HOME/Desktop/active_floreantpos
+ACTIVE_DIR=$HOME/Desktop/active_galaxypos
 CUSTOM_LOGO=$ACTIVE_DIR/config/custom-logo.png
 
 FLOREANT_SVN_URL=svn://svn.code.sf.net/p/floreantpos/code/trunk
